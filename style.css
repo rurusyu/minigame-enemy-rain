@@ -1,0 +1,31 @@
+body {
+    box-sizing: border-box;
+}
+
+#bg {
+    position: relative;
+    align-content: center;
+    margin: auto;  
+    width: 800px;
+    height: 600px;
+    background-image:url('images/bg.png');
+}
+
+  .heroMan{
+    position: absolute;
+    width: 35px;
+    height: 50px; 
+    background-image:url('images/hero.png'); 
+    background-position: 0px 0px;
+    bottom: 0px;   
+    left : 400px;
+}
+
+.monster {
+    position: absolute;
+    width: 40px;
+    height: 50px; 
+    background-image:url('images/enemy.png'); 
+    background-position: -3px 0px;
+    bottom: 550px;       
+}
